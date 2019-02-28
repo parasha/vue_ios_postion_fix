@@ -15,7 +15,7 @@ pos_fix.install = function(Vue,options){
                const _this = this
                 Vue.prototype.pos_fix_time_handle = setTimeout(function(){
                     if(document.activeElement == document.body){
-                        const h = document.documentElement.scrollTop
+                        const h = document.body.scrollTop
                         window.scrollTo(0, h+1);
                     }
                 },200)
