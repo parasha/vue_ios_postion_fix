@@ -12,7 +12,6 @@ pos_fix.install = function(Vue,options){
     Vue.directive('pos_fix',{
         bind:function(el){
            el.addEventListener('blur',function(){
-               const _this = this
                 Vue.prototype.pos_fix_time_handle = setTimeout(function(){
                     if(document.activeElement == document.body){
                         const h = document.body.scrollTop || document.documentElement.scrollTop;
