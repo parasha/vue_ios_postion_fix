@@ -1,8 +1,8 @@
 {
-  "name": "ios_postion_fix",
+  "name": "vue_ios_fixed_postion_bug_fix_test",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./src/plugins/postion_fix.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +28,7 @@
     "vue": "^2.6.6",
     "vue-loader": "^15.6.2",
     "vue-template-compiler": "^2.6.6",
+    "vue_ios_fixed_postion_bug_fix": "0.0.1",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
   }
