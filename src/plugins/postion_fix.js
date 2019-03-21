@@ -4,7 +4,8 @@ pos_fix.install = function(Vue,options){
     Vue.prototype.pos_fix_time_handle = null;
 
     document.body.addEventListener('focus',function(e){
-        if(e.target.nodeName.toLocaleLowerCase() == 'input'){
+        const n = e.target.nodeName.toLowerCase()
+        if( n == 'input' || n == 'textarea'){
             clearTimeout(Vue.prototype.pos_fix_time_handle)
         }
     },true)
