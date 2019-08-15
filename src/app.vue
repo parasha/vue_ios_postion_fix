@@ -28,4 +28,7 @@ export default {
 #page{
     margin: 550px 10px;
 }
+input{
+  border: 1px solid #999999;
+}
 </style>
