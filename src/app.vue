@@ -1,13 +1,13 @@
 <template>
   <div id='page'>
     <p>1，
-      <input type="text" v-pos_fix>
+      <input type="text">
     </p>
     <p>2，
-      <input type="text" v-pos_fix>
+      <input type="text">
     </p>
     <p>3，
-      <input type="text" v-pos_fix>
+      <input type="text">
     </p>
   </div>
 </template>
